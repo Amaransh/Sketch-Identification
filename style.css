@@ -1,0 +1,37 @@
+#title
+{
+    width: 80%;
+    font-size: 40px;
+}
+
+h1
+{
+    color: aquamarine;
+    background-color: blueviolet;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+    border: 5px solid blue;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px white;}
+    t0 {box-shadow: 1px 1px 38px rgb(17, 195, 147);}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
